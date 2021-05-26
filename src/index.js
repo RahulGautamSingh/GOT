@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+
+import CounterClassComponent from "./Counter";
 
 ReactDOM.render(
-  <React>
-    <App />
-  </React>
+  <React.StrictMode>
+    <CounterClassComponent />
+  </React.StrictMode>
 
  ,
   document.getElementById("root")
