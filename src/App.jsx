@@ -1,6 +1,7 @@
-import React from "React"
+import React from "react"
 export default class App extends React.Component {
-  constructor() {
+  constructor(props) {
+    super(props);
     this.headline = "HEADLINE";
     this.subtext = "SUBTEXT";
     this.discount = "30% OFF";
